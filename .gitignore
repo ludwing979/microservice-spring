@@ -1,0 +1,5 @@
+# La Groovy on Grails :V
+
+.idea/*
+target/*
+*.iml
