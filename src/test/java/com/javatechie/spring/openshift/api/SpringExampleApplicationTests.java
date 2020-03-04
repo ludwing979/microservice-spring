@@ -1,4 +1,4 @@
-package com.example.springexample;
+package com.javatechie.spring.openshift.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

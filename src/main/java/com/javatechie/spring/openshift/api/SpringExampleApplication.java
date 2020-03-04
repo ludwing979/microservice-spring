@@ -1,4 +1,4 @@
-package com.example.springexample;
+package com.javatechie.spring.openshift.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
