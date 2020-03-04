@@ -1,4 +1,4 @@
-package com.javatechie.spring.openshift.api;
+package com.javasampleapproach.jms;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
