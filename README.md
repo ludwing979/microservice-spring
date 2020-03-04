@@ -1,1 +1,1 @@
-# microservice-spring
+# spring-example

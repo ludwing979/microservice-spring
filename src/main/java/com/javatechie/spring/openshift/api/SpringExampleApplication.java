@@ -10,19 +10,17 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringExampleApplication {
 
-    @GetMapping("/")
-    public String welcome() {
-        return "Welcome to java techie";
-    }
+	@GetMapping("/")
+	public String welcome() {
+		return "Welcome to java techie";
+	}
 
-    @GetMapping("/{input}")
-    public String congrats(@PathVariable String input) {
-        return "hi" + input + " Your application deployed successfully...";
-    }
+	@GetMapping("/{input}")
+	public String congrats(@PathVariable String input) {
+		return "hi " + input + " Your application deployed successfully....";
+	}
 
-    public static void main(String[] args) {
-        SpringApplication.run(SpringExampleApplication.class, args);
-    }
-
+	public static void main(String[] args) {
+		SpringApplication.run(SpringExampleApplication.class, args);
+	}
 }
-
